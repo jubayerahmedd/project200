@@ -1,10 +1,17 @@
 .nav-menu{
-    min-height: 70px;
+    min-height: 60px;
 }
 
 .first-slider img{
     width: 100%;
 }
-.footer1{
-    min-height: 300px;
+.fh{
+    color: deeppink;
+}
+footer{
+    margin-top: 300px;
+    background-color: black;
+    text-align: center;
+    height: 250px;
+    padding-top: 50px;
 }
