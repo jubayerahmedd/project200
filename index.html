@@ -14,9 +14,9 @@
   </head>
   <body>
     <header>
-      <div class="container nav-menu">
+      <div class="container" id="top">
       <!--start navbar -->
-      <nav class="navbar navbar-expand-lg navbar-light bg-primary">
+      <nav class="navbar navbar-expand-lg navbar-light container fixed-top bg-light">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">Navbar</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -25,25 +25,19 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a class="nav-link active" aria-current="page" href="#top">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
+                <a class="nav-link" href="#man">Man</a>
               </li>
-
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Dropdown link
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
-                </ul>
+              <li class="nav-item">
+                <a class="nav-link" href="#woman">Woman</a>
               </li>
-              
-              
+              <li class="nav-item">
+                <a class="nav-link" href="#child">Child</a>
+              </li>      
             </ul>
+            
             <form class="d-flex">
               <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
               <button class="btn btn-outline-success" type="submit">Search</button>
@@ -93,7 +87,7 @@
 
     <main class="container"> 
 
-     <section class="mt-5">
+     <section id="man" class="mt-5">
       <h3 id="Products" class="heading mb-3"> MAN</h3>
       <div class="row row-cols-1 row-cols-md-3 g-5">
 
@@ -107,8 +101,8 @@
                       <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
                           additional content.</p>
                         <div class="ft-b d-flex align-items-center" style="margin-top: 40px;">
-                          <h2 class="price">$234</h2>
-                          <button class="btn btn-primary btn-now" >  BUY NOW</button>
+                          <h2 class="price"> <img src="images/taka2.png" alt=""> 234</h2>
+                          <button class="btn btn-primary btn-now" >BUY NOW</button>
                         </div>
                         </div>
                       </div>
@@ -126,7 +120,7 @@
                           <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
                               additional content. This content is a little bit longer.</p>
                               <div class="ft-b d-flex align-items-center">
-                                <h2 class="price">$234</h2>
+                                <h2 class="price"> <img src="images/taka2.png" alt=""> 234</h2>
                                 <button class="btn btn-primary btn-now">  BUY NOW</button>
                               </div>
                             </div>
@@ -145,7 +139,7 @@
                               <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
                                   additional content. This content is a little bit longer.</p>
                                   <div class="ft-b d-flex align-items-center">
-                                    <h2 class="price">$234</h2>
+                                    <h2 class="price"> <img src="images/taka2.png" alt=""> 234</h2>
                                     <button class="btn btn-primary btn-now">  BUY NOW</button>
                                   </div>
                                 </div>
@@ -157,7 +151,7 @@
       </section>
 
 
-      <section class="mt-5">
+      <section id="woman" class="mt-5">
         <h3 id="products" class="heading mb-3"> WOMAN</h3>
         <div class="row row-cols-1 row-cols-md-3 g-5">
 
@@ -171,7 +165,7 @@
                         <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
                             additional content.</p>
                           <div class="ft-b d-flex align-items-center" style="margin-top: 40px;">
-                            <h2 class="price">$234</h2>
+                            <h2 class="price"> <img src="images/taka2.png" alt=""> 234</h2>
                             <button class="btn btn-primary btn-now" >  BUY NOW</button>
                           </div>
                           </div>
@@ -190,7 +184,7 @@
                             <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
                                 additional content. This content is a little bit longer.</p>
                                 <div class="ft-b d-flex align-items-center">
-                                  <h2 class="price">$234</h2>
+                                  <h2 class="price"> <img src="images/taka2.png" alt=""> 234</h2>
                                   <button class="btn btn-primary btn-now">  BUY NOW</button>
                                 </div>
                               </div>
@@ -209,7 +203,7 @@
                                 <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
                                     additional content. This content is a little bit longer.</p>
                                     <div class="ft-b d-flex align-items-center">
-                                      <h2 class="price">$234</h2>
+                                      <h2 class="price"> <img src="images/taka2.png" alt=""> 234</h2>
                                       <button class="btn btn-primary btn-now">  BUY NOW</button>
                                     </div>
                                   </div>
@@ -223,7 +217,7 @@
 
 
 
-      <section class="mt-5">
+      <section id="child" class="mt-5">
         <h3 id="Products" class="heading mb-3"> CHILD</h3>
         <div class="row row-cols-1 row-cols-md-3 g-5">
   
@@ -237,7 +231,7 @@
                         <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
                             additional content.</p>
                           <div class="ft-b d-flex align-items-center" style="margin-top: 40px;">
-                            <h2 class="price">$234</h2>
+                            <h2 class="price"> <img src="images/taka2.png" alt=""> 234</h2>
                             <button class="btn btn-primary btn-now" >  BUY NOW</button>
                           </div>
                           </div>
@@ -256,7 +250,7 @@
                             <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
                                 additional content. This content is a little bit longer.</p>
                                 <div class="ft-b d-flex align-items-center">
-                                  <h2 class="price">$234</h2>
+                                  <h2 class="price"> <img src="images/taka2.png" alt=""> 234</h2>
                                   <button class="btn btn-primary btn-now">  BUY NOW</button>
                                 </div>
                               </div>
@@ -275,7 +269,7 @@
                                 <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
                                     additional content. This content is a little bit longer.</p>
                                     <div class="ft-b d-flex align-items-center">
-                                      <h2 class="price">$234</h2>
+                                      <h2 class="price"> <img src="images/taka2.png" alt=""> 234</h2>
                                       <button class="btn btn-primary btn-now">  BUY NOW</button>
                                     </div>
                                   </div>

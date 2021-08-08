@@ -1,16 +1,13 @@
-.nav-menu{
-    min-height: 60px;
-}
 
 .first-slider img{
     width: 100%;
 }
 .fh{
-    color: deeppink;
+    color: rgb(189, 178, 184);
 }
 footer{
     margin-top: 300px;
-    background-color: black;
+    background-color: rgba(92, 9, 9, 0.705);
     text-align: center;
     height: 250px;
     padding-top: 50px;
