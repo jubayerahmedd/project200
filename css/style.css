@@ -1,14 +1,18 @@
+.panda-card{
+    border: 0;
+}
+.panda-card-footer{
+    background-color: #ffffff;
+    border: 0;
 
-.first-slider img{
-    width: 100%;
 }
-.fh{
-    color: rgb(189, 178, 184);
+.categories img{
+    width: 100px;
 }
-footer{
-    margin-top: 300px;
-    background-color: rgba(92, 9, 9, 0.705);
-    text-align: center;
-    height: 250px;
-    padding-top: 50px;
+.panda-slide .carousel-item{
+    background-color: #fceae8;
+    border-radius: 1em;
+}
+.align-items-center{
+    margin-top: 20px;
 }
